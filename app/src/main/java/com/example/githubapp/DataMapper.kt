@@ -2,7 +2,7 @@
 package com.example.githubapp
 
 
-fun RepoDto.toEntity(owner: String) = RepoEntity(
+fun NetworkDto.toEntity(owner: String) = RepoEntity(
     id = id,
     name = name,
     description = description,

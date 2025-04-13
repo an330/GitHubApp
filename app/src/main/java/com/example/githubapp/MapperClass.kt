@@ -1,7 +1,7 @@
 import com.example.githubapp.Repo
-import com.example.githubapp.RepoDto
+import com.example.githubapp.NetworkDto
 
-fun RepoDto.toDomain(): Repo = Repo(
+fun NetworkDto.toDomain(): Repo = Repo(
     id = id,
     name = name,
     description = description,
